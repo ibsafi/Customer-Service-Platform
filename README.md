@@ -2,24 +2,24 @@
 A platform that allows companies to manage their customer service.
 
 # Routes
-
-1- staff/:id    `-GET`      Retrieve
-2- staff/:id    `-PUT`      Edit
-3- staff/:id    `-DELETE`   delete
-4- staff/       `-POST`     Add
-
-5- ticket/:id   `-GET`      Retrieve
-6- ticket/:id   `-PUT`      Edit
-7- ticket/:id   `-DELETE`   delete
-8- ticket/      `-POST`     Add
-
-9- company/:id  `-GET`      Retrieve
-10- company/:id  `-PUT`      Edit
-11- company/:id  `-DELETE`   delete
-12- company/     `-POST`     Add
-
-13- /staff/      `-POST`     Register
-14- /signin/     `-POST`     signin
-15- /signout/    `-POST`     signout
-16- /profile/    `-GET`      Retrieve
-17- /profile/    `-PUT`      Edit
+<br/>
+1- staff/:id    `-GET`      Retrieve <br/>
+2- staff/:id    `-PUT`      Edit<br/>
+3- staff/:id    `-DELETE`   delete<br/>
+4- staff/       `-POST`     Add<br/>
+<br/>
+5- ticket/:id   `-GET`      Retrieve<br/>
+6- ticket/:id   `-PUT`      Edit<br/>
+7- ticket/:id   `-DELETE`   delete<br/>
+8- ticket/      `-POST`     Add<br/>
+<br/>
+9- company/:id  `-GET`      Retrieve<br/>
+10- company/:id  `-PUT`      Edit<br/>
+11- company/:id  `-DELETE`   delete<br/>
+12- company/     `-POST`     Add<br/>
+<br/>
+13- /staff/      `-POST`     Register<br/>
+14- /signin/     `-POST`     signin<br/>
+15- /signout/    `-POST`     signout<br/>
+16- /profile/    `-GET`      Retrieve<br/>
+17- /profile/    `-PUT`      Edit<br/>
