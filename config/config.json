@@ -15,10 +15,11 @@
         "dialect": "mysql"
     },
     "production": {
-        "username": "b93b892ec0485e",
-        "password": "a8c5a953",
-        "database": "heroku_df947b1179f1091",
-        "host": "us-cdbr-iron-east-03.cleardb.net",
-        "dialect": "mysql"
+        "username": "szy0rqaszus1gytf",
+        "password": "b1zdrw2wbi21e0g5",
+        "database": "r0xcx7qxbf3yllcf",
+        "host": "icopoghru9oezxh8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "dialect": "mysql",
+        "port": "3306"
     }
 }
