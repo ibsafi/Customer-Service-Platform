@@ -1,25 +1,37 @@
-# customer-service-platform
-A platform that allows companies to manage their customer service.
+# Customer Service Platform using NodeJS, EJS, and Sequelize
 
-# Routes
-<br/>
-1- staff/:id    `-GET`      Retrieve <br/>
-2- staff/:id    `-PUT`      Edit<br/>
-3- staff/:id    `-DELETE`   delete<br/>
-4- staff/       `-POST`     Add<br/>
-<br/>
-5- ticket/:id   `-GET`      Retrieve<br/>
-6- ticket/:id   `-PUT`      Edit<br/>
-7- ticket/:id   `-DELETE`   delete<br/>
-8- ticket/      `-POST`     Add<br/>
-<br/>
-9- company/:id  `-GET`      Retrieve<br/>
-10- company/:id  `-PUT`      Edit<br/>
-11- company/:id  `-DELETE`   delete<br/>
-12- company/     `-POST`     Add<br/>
-<br/>
-13- /staff/      `-POST`     Register<br/>
-14- /signin/     `-POST`     signin<br/>
-15- /signout/    `-POST`     signout<br/>
-16- /profile/    `-GET`      Retrieve<br/>
-17- /profile/    `-PUT`      Edit<br/>
+## Overview:
+This platform allows companies to manage their customer service by providing a comprehensive view for service providers to manage service tickets, assign technicians, and fulfill customer satisfactions.
+
+
+## Project Dependencies:
+This app requires these node packages: `express`, `express-session`, `bcryptjs`, `connect-flash`, `cookie-parser`, `dotenv`, `ejs`, `mysql2`, `sequelize`.
+
+## The App Features:
+* Polished Front-End, Iconic design, and full-responsive (desktop and mobile) layout; by using Bootstrap, FontAwesome, and Embedded-JS frameworks.
+
+* Multi-user privilege levels; supports three user types; `manager`, `Customer Service Representative (CSR)`, `Technician`, as each user possesses a limited system accessibilities.
+
+* Pop-up Modal with interactive design and animated status bar.  see the following screenshot.
+
+![a Screenshot of modal](./images/modal.png)
+
+## Basic Usage:
+* The app runs by navigating into the directory of the app folder, and then type the command `node server.js` in the command line terminal.
+
+* To access the app, open the web-browser and navigate to: "localhost:3000"
+
+* `CSR` or `Manager` user type can add new companies, staff, and tickets.
+
+* `Technician` user can only finish and close the tickets.
+
+## Screenshot of Usage:
+
+* Here's a screenshot of CSR user type dashboard:
+
+![a Screenshot of CSR-Dashboard](./images/dashboard.png)
+
+## Try it on HEROKU:
+This link will jump you to test the application, have fun!
+ 
+  * ["Try it"](https://safe-harbor-19319.herokuapp.com/)
